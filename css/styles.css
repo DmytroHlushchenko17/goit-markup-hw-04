@@ -192,27 +192,6 @@ img {
   color: #404bbf;
 }
 
-/* .menu-overleyt {
-  display: block;
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  background: #404bbf;
-  position: absolute;
-  top: 68px;
-  left: 74px;
-  /* transform: translateY(150%); */
-/* transition: transform 500ms linear; */
-*/
-
-/* .menu-wrapper {
-  position: relative;
-  cursor: pointer;
-  overflow: hidden;
-} */
-/* .menu-wrapper:hover .menu-overleyt {
-  transform: translateY(0);
-} */
 /*============================HEDER END=======================================*/
 
 /*============================HERO SECTION====================================*/
