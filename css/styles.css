@@ -132,7 +132,6 @@ img {
 .topline-menu-nav {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .menu-item {
@@ -226,7 +225,7 @@ img {
   max-width: 496px;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
