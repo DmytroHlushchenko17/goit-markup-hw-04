@@ -174,6 +174,28 @@ img {
 .topline-address-inf:focus {
   color: #404bbf;
 }
+
+.menu-overleyt {
+  display: block;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+  position: absolute;
+  top: 68px;
+  left: 74px;
+  /* transform: translateY(150%); */
+  transition: transform 500ms linear;
+}
+
+.menu-wrapper {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.menu-wrapper:hover .menu-overleyt {
+  /* transform: translateY(0); */
+}
 /*============================HEDER END=======================================*/
 
 /*============================HERO SECTION====================================*/
@@ -333,18 +355,18 @@ img {
 
 .social-box {
   display: flex;
-  gap: 24px;
+  justify-content: space-between;
 }
 
-/* .social-box-item {
-   */
-
-.social-box-icon {
-  background: #4d5ae5;
-  align-items: center;
+.social-box-item {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #4d5ae5;
   border-radius: 50%;
-  padding: 17px 17px;
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
 }
 
 /* .icon {
@@ -377,20 +399,7 @@ img {
 }
 
 .portfolio-item {
-  position: relative;
   width: calc((100% - 48px) / 3);
-}
-
-.portfolio-overleyt {
-  color: #f4f4fd;
-  background: #4d5ae5;
-  padding: 40px 32px;
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  top: 0;
-  left: 0;
-  /* transform: translate(% %); */
 }
 
 .card-content {
@@ -417,6 +426,37 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-overleyt {
+  display: block;
+  color: #f4f4fd;
+  background: #4d5ae5;
+  padding: 40px 32px;
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  transform: translateY(150%);
+  transition: transform 500ms linear;
+}
+
+.portfolio-wrapper {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.portfolio-wrapper:hover .portfolio-overleyt {
+  transform: translateY(0);
+}
+.overleyt-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 /*=============================PORTFOLIO END============================*/
@@ -457,4 +497,24 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-conteiner {
+  display: flex;
+}
+
+.social-media {
+}
+.social-media-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.social-media-box {
+  display: flex;
+  gap: 16px;
 }
