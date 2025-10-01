@@ -11,7 +11,7 @@
   --grey: rgba(46, 47, 66, 0.7);
   --bg-color: #fff;
   --dairy: #fcfcfc;
-  --font-family: 'Roboto', sans-serif;
+  --font-mane: 'Roboto', sans-serif;
   --second-family: 'Raleway', sans-serif;
   --font-size: 16px;
   --line-height: 1.5;
@@ -19,7 +19,7 @@
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: 'Roboto', sans-serif;
   color: var(--text);
   background: var(--bg-color);
   font-size: var(--font-size);
@@ -195,6 +195,7 @@ img {
 
 /*============================HERO SECTION====================================*/
 .hero {
+  margin: 0 auto;
   padding: 188px 0;
   background: #2e2f42;
   background-repeat: no-repeat;
@@ -208,14 +209,7 @@ img {
   max-width: 1440px;
 }
 
-.hero-conteiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
